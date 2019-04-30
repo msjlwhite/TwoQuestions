@@ -25,7 +25,7 @@ public class Inquiry {
     public void welcome() {
 
         System.out.println("Welcome to Ask-away Q and A!");
-        System.out.println("This program is a simple game of 20 ... ER, um, ... no, 2 Questions. Where I will try to guess what ");
+        System.out.println("This program is a simple game of 20 ... ER, um, ... no, 2 Questions where I will try to guess what ");
         System.out.println("object you are thinking of. Please answer the following questions:");
         System.out.println("");
 
@@ -54,7 +54,7 @@ public class Inquiry {
                 System.out.println("Hocus Pocus...Alakazam ... You're thinking of a pumpkin, sir/ma'am.");
                 System.out.println("What?!! I'm wrong, you say? Well, I don't actually care anyway ...");
             }else{
-                System.out.println("It");
+                System.out.println("It's VOLCANIC ROCK, right? No, well EXCUSSSEE ME. No need to get all hot and bothered about it.");
             }// end
         }else if(ans2.equals("no")){
             if(ans.equals("animal")){
