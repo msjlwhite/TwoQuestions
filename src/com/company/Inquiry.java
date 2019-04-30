@@ -51,7 +51,7 @@ public class Inquiry {
         // If yes, bigger than breadbox this happens . . . .
         if (ans2.equals("yes")){
             if(ans.equals("animal")){
-                System.out.println("You're thinking of an ELEPHANT ... or not? Either way, not my monkey, not my show!");
+                System.out.println("You're thinking of an ELEPHANT, right? If not, then we have a BIG problem?");
 //                System.out.println("Big animal test ..." 1);
             }else if(ans.equals("vegetable")){
 //                System.out.println("Big veggie test ...");
@@ -59,14 +59,14 @@ public class Inquiry {
                 System.out.println("What?!! I'm wrong, you say? Well, I don't actually care anyway ...");
             }else{
 //                System.out.println("Big mineral test ...");
-                System.out.println(" WHOOSH ... [wind]... the sound of silence ... ");
+                System.out.println("It");
             }// end
         }else if(ans2.equals("no")){
             // no smaller than or equal to in size of breadbox then this happens
             if(ans.equals("animal")){
                 System.out.println("You're thinking about a . . .  MOUSE, right?");
                 System.out.println("No?! I was wrong? Well let me tell you a secret --- I just lost my job as the rodent keeper at the zoo. Now," +
-                        "no more Mr Mice guy.");
+                        "Now no more Mr Mice guy.");
                 System.out.println("See?! Now you are thinking about a Mouse!'");
 //                System.out.println("Small Animal test");
                 System.out.println(" ...");
@@ -78,8 +78,8 @@ public class Inquiry {
             }else{
 //                System.out.println("Small Mineral Tes");
                 System.out.println(" ...");
-                System.out.println(" WHOOSH ... [wind]... the sound of silence ... ");
-
+                System.out.println(" You're thinking of ... SODIUM CHLORIDE!! Wrong?! Well you don't have to get all salty" +
+                        " about it.");
             }
         }else {
             System.out.println("I HAVE NO IDEA what you're thinking of and apparently neither" +
