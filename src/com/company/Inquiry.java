@@ -51,7 +51,7 @@ public class Inquiry {
             if(ans.equals("animal")){
                 System.out.println("You're thinking of an ELEPHANT, right? If not, then we have a BIG problem?");
             }else if(ans.equals("vegetable")){
-                System.out.println("Hocus Pocus...Alakazam ... You're thinking of a pumpkin, sir/ma'am.");
+                System.out.println("Hocus Pocus...Alakazam ... You're thinking of a PUMPKIN, sir/ma'am.");
                 System.out.println("What?!! I'm wrong, you say? Well, I don't actually care anyway ...");
             }else{
                 System.out.println("It's VOLCANIC ROCK, right? No, well EXCUSSSEE ME. No need to get all hot and bothered about it.");
